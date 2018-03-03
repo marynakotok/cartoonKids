@@ -1,0 +1,132 @@
+body {
+  font-family:"Comic Sans MS";
+  font-size: 17px;
+  margin-left: 420px;
+  margin-top: 50px;
+}
+html{
+  background: url("../img/Children Background Images - WallpaperSafari.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+input {
+    width : 300px;
+    height: 30px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    border: 2px solid #4CAF50;
+    text-align: left;
+    color: #a6a6a6;
+    font-family:"Comic Sans MS";
+    color: black;
+    padding-left: 10px;
+}
+form
+{
+	float: left;
+}
+.button
+{
+  	float: left;
+  	position: relative;
+  	width : 100px;
+    height: 30px;
+    margin-left: 100px;
+    background-color: white;
+    text-align: center;
+    font-family:"Comic Sans MS";
+    color: black;
+    cursor: pointer;
+    margin-bottom: 25px;
+    margin-top: 10px;
+
+}
+.button:hover
+{
+	background-color: #4CAF50;
+	color: white;
+	border: 2px solid #a6a6a6;
+
+}
+.error
+{
+  position: relative;
+	float: left;
+	clear: both;
+	margin-left: 10px;
+  color: red;
+
+}
+.down
+{
+	clear: both;
+}
+.rules
+{
+  text-align: center;
+  width: 60px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 40px;
+  height: 20px;
+  padding: 0px;
+
+}
+.yesOrNo
+{
+  width: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  height: 20px;
+  padding: 0px;
+}
+#file
+{
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+#forFile {
+    font-size: 17px;
+    font-weight: bold;
+    color: #a6a6a6;
+    background-color: #fcfdff;
+    display: inline-block;
+    margin-left: 100px;
+    float: left;
+
+}
+#forFile:hover {
+    color: #4CAF50;
+    cursor: pointer;
+}
+a
+{
+	text-decoration: none;
+	float: left;
+	margin: 10px;
+	color: #a6a6a6;
+	margin-left: 50px;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:#4CAF50;
+}
+
+a:active {
+    text-decoration: underline;
+    color:#4CAF50;
+}

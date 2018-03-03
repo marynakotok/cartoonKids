@@ -1,1 +1,2 @@
 # cartoonKids
+author : Maryna Kotok
